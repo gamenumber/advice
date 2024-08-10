@@ -1,1 +1,69 @@
 @charset "utf-8";
+
+
+* {
+    /* m0+p0+bxbb */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEFFF8;
+    font: 20px/1.6 'Pretendard', sans-serif;
+    color: #555;
+}
+
+ul {
+    width: 1321px;
+    display: flex; 
+    flex-wrap: wrap;
+    /* background: #000; */
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    gap: 48px 20px; 
+    margin-top: 40px;
+}
+
+li {
+    /* w427+h514+m0-a+bg#fff+lisn+bd+mt20+brs20+tac*/
+    width: 427px;
+    height: 514px;
+    background: #fff;
+    list-style: none;
+    border: 1px solid #000;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px violet; /* bxsh */
+    margin: 0 auto; /* m0-a: width가 있는 블록요소의 가운데 정렬 */
+}
+
+p {
+    /* fz20+mt40+h189+ta:l */
+    font-size: 20px;
+    margin-top: 40px; 
+    padding: 30px;
+    height: 189px; 
+    text-align: left; 
+}
+
+strong {
+
+    /* db+mt40+fz18 */
+    display: block; /* db : 블록요소만 크기와 여백을 가지므로 
+    블록화시켜서 그게 가능하게 끔 함. */
+    font-size: 18px;
+    margin-top: 40px; /* mt40 */
+ 
+}
+
+h1 {
+    /* tac */
+    text-align: center;
+}
+
+img {
+    padding: 20px;
+    margin-top: 20px;
+}
